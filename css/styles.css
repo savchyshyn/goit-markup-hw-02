@@ -1,0 +1,35 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --hero-text: #ffffff;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: #fff;
+}
+
+.list {
+  list-style: none;
+}
+
+/* site nav */
+.site-nav {
+  color: var(--accent-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+/* button */
+.button {
+  color: var(--hero-text);
+  background-color: var(--accent-color);
+}
