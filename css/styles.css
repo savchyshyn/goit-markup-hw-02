@@ -10,9 +10,10 @@
 
 body {
   color: var(--primary-text-color);
-  background-color: #fff;
+  background-color: var(--white-color);
 
   font-family: Roboto, sans-serif;
+  font-size: 14px;
   letter-spacing: 0.03em;
 }
 
@@ -54,15 +55,12 @@ body {
 }
 
 /* site nav */
-.site-nav {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
 
 .site-nav .link {
   color: var(--primary-text-color);
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -78,7 +76,6 @@ body {
   color: var(--secondary-text-color);
 
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -140,7 +137,6 @@ body {
 /* features section */
 
 .features-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.17;
   letter-spacing: 0.03em;
@@ -148,7 +144,6 @@ body {
 }
 
 .features-description {
-  font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
@@ -156,10 +151,9 @@ body {
 
 /* what we are doing */
 
-.about-title {
+.section-title {
   font-size: 36px;
   line-height: 1.17;
-  font-weight: 700;
   letter-spacing: 0.03em;
 }
 
@@ -171,13 +165,6 @@ body {
 
 .team .background {
   background-color: var(--white-color);
-}
-
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 .team-name {
@@ -208,15 +195,23 @@ body {
 }
 
 .footer .map {
-  color: var(--white-color);
-  font-size: 14px;
+  font-weight: 400;
   line-height: 1.7;
   font-style: normal;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.footer .link {
+ color: var(--secondary-text-color);
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 /* portfolio */
 .project-name {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
