@@ -6,12 +6,12 @@
   --background-hero-color: #2f303a;
   --button-secondary-color: #188ce8;
   --background-secondary-color: #f5f4fa;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
   color: var(--primary-text-color);
   background-color: var(--white-color);
-
   font-family: Roboto, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
@@ -74,7 +74,6 @@ body {
 /* contacts */
 .contacts .link {
   color: var(--secondary-text-color);
-
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -120,6 +119,7 @@ body {
 /* portfolio button */
 
 .filter-button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -145,7 +145,6 @@ body {
 
 .features-description {
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
 
@@ -154,7 +153,6 @@ body {
 .section-title {
   font-size: 36px;
   line-height: 1.17;
-  letter-spacing: 0.03em;
 }
 
 /* our team */
@@ -172,7 +170,6 @@ body {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-position {
@@ -180,7 +177,6 @@ body {
   line-height: 1.19;
   color: var(--secondary-text-color);
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -192,10 +188,10 @@ body {
 
 .footer .logo {
   color: var(--white-color);
+  text-decoration: none;
 }
 
 .footer .map {
-  font-weight: 400;
   line-height: 1.7;
   font-style: normal;
   color: var(--white-color);
@@ -203,11 +199,16 @@ body {
 }
 
 .footer .link {
- color: var(--secondary-text-color);
-
+  color: var(--footer-contacts-color);
+  font-style: normal;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+}
+
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
 }
 
 /* portfolio */
@@ -215,12 +216,10 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-text-color);
 }
 
 .project-description {
   font-size: 16px;
   line-height: 1.87;
-  letter-spacing: 0.03em;
   color: var(--secondary-text-color);
 }
